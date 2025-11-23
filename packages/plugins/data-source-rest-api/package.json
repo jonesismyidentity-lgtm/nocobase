@@ -4,16 +4,16 @@
   "displayName.zh-CN": "数据源：REST API",
   "description": "REST API data source for NocoBase.",
   "description.zh-CN": "NocoBase 的 REST API 数据源。",
-  "version": "0.1.0",
+  "version": "2.0.0-alpha.45",
   "main": "./dist/server/index.js",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2"
   },
   "peerDependencies": {
-    "@nocobase/client": "1.x",
-    "@nocobase/data-source-manager": "1.x",
-    "@nocobase/server": "1.x"
+    "@nocobase/client": "^2.0.0-alpha.45",
+    "@nocobase/data-source-manager": "^2.0.0-alpha.45",
+    "@nocobase/server": "^2.0.0-alpha.45"
   },
   "keywords": [
     "Data sources",
